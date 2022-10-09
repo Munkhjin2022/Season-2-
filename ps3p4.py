@@ -1,5 +1,5 @@
 #comment input 
-name=input("Please enter name\n")
+name=input("Please enter name\n ")
 ca = float(input("Please enter cost of the appliance\n "))
 
 #process phase 
