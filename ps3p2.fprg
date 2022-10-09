@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-09 09:40:18 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjAxOjAzIFBNOzI5MzY="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjQwOjE4IFBNOzE7MzA1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="q" type="Real" array="False" size=""/>
+            <declare name="upA" type="Real" array="False" size=""/>
+            <declare name="upB" type="Real" array="False" size=""/>
+            <declare name="ep1" type="Real" array="False" size=""/>
+            <declare name="ep2" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter an item and quantity &quot;" newline="True"/>
+            <input variable="q"/>
+            <assign variable="upA" expression="10.00"/>
+            <assign variable="upB" expression="20.00"/>
+            <assign variable="ep1" expression="q * upA"/>
+            <assign variable="ep2" expression="q * upB"/>
+            <output expression="&quot;The unit price A is &quot; &amp; upA" newline="True"/>
+            <output expression="&quot;The unit ptice B is &quot; &amp; upB" newline="True"/>
+            <output expression="&quot;The extended price 1 is  &quot; &amp;  ep1" newline="True"/>
+            <output expression="&quot;The extended price 2 is  &quot; &amp;  ep2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

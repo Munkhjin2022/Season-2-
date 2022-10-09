@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-09 09:46:53 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjQwOjMwIFBNOzI5Mzk="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjQyOjE0IFBNOzE7QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjAxOjAzIFBNOzYwNDY="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA5OzA5OjQ2OjUzIFBNOzE7MzA1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Real" array="False" size=""/>
+            <declare name="cpb" type="Real" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="sh" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the number of book &quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;Please enter cost of per book &quot;" newline="True"/>
+            <input variable="cpb"/>
+            <assign variable="t" expression="n * cpb"/>
+            <if expression="t&lt;=50">
+                <then>
+                    <assign variable="sh" expression="25"/>
+                </then>
+                <else>
+                    <assign variable="sh" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot; The order total:  $&quot; &amp; t" newline="True"/>
+            <output expression="&quot;Shipping:   $ &quot; &amp; sh" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
