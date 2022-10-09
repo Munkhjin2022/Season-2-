@@ -1,5 +1,5 @@
 #comment input
-q=float(input("Enter an item and quantity"))
+q=float(input("Enter an item and quantity "))
 
 #process phase 
 upA = 10.00
