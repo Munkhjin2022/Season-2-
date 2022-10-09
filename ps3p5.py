@@ -1,7 +1,7 @@
 #comment input 
 name = str(input("Please enter name "))
 d = float(input("Enter number of dependents "))
-inc = float(input("Enter the gross income" ))
+inc = float(input("Enter the gross income " ))
 
 #process phase 
 ainc = (inc - d)* 12000.00
