@@ -1,4 +1,4 @@
-1#comment input
+#comment input
 q=float(input("Enter an item and quantity"))
 
 #process phase 
