@@ -1,6 +1,6 @@
 #comment input
-n = float(input("Please enter the number of book"))
-cpb = float(input("Please enter cost of per book"))
+n = float(input("Please enter the number of book "))
+cpb = float(input("Please enter cost of per book "))
 
 #process phase 
 t= n * cpb
